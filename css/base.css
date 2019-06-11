@@ -1,0 +1,76 @@
+body,
+div,
+span,
+a,
+input,
+img,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+strong,
+em,
+del,
+ins,
+i,
+header,
+nav,
+p,
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    -webkit-tap-highlight-color: transparent;
+}
+
+i {
+    font-style: normal;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after,
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix {
+    zoom: 1;
+}
